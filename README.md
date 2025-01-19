@@ -1,3 +1,15 @@
+# Observação
+
+O projeto encontra-se na pasta ** src **. Estando na pasta src, executar os comandos:
+```
+go mod tidy
+```
+
+- Executando o server `go run cmd/server/main.go`;
+- Executando o client `go run cmd/client/main.go`.
+
+## Descrição do desafio
+
 Neste desafio vamos aplicar o que aprendemos sobre webserver http, contextos,
 banco de dados e manipulação de arquivos com Go.
  
