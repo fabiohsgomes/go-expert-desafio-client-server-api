@@ -1,12 +1,15 @@
 # Observação
 
-O projeto encontra-se na pasta ** src **. Estando na pasta src, executar os comandos:
+O projeto encontra-se na pasta **src**. Estando na pasta src, executar os comandos:
 ```
 go mod tidy
-```
 
-- Executando o server `go run cmd/server/main.go`;
-- Executando o client `go run cmd/client/main.go`.
+#Executando o server 
+go run cmd/server/main.go
+
+#Executando o client
+go run cmd/client/main.go
+```
 
 ## Descrição do desafio
 
