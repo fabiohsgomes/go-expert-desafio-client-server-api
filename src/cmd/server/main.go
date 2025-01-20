@@ -25,7 +25,7 @@ func ConsultaCotacao(w http.ResponseWriter, r *http.Request) {
 
 	cotacao, err := consultacotacaoserver.ProcessaCotacao(requestContext)
 	if err != nil {
-		http.Error(w, err.Error(), http.StatusBadRequest)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 	} else {
 		json.NewEncoder(w).Encode(cotacao)
 	}
